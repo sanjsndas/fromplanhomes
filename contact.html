@@ -1,0 +1,822 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — NICHE Interior Design & Architecture Journal</title>
+  <meta name="description" content="Get in touch with NICHE editorial, advertising, and contributor teams. We welcome story ideas, pitches, and partnership inquiries.">
+  <link rel="canonical" href="https://www.nichejournal.com/contact.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="Contact — NICHE Interior Design & Architecture Journal">
+  <meta property="og:description" content="Reach the NICHE editorial team for pitches, advertising, or general inquiries.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.nichejournal.com/contact.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    "name": "Contact NICHE",
+    "url": "https://www.nichejournal.com/contact.html",
+    "description": "Contact page for NICHE Interior Design & Architecture Journal."
+  }
+  </script>
+  <style>
+    /* ----- RESET & BASE (same as main) ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fbf9f7;
+      color: #1e1e1e;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    a:hover {
+      color: #b35e2e;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ----- TYPOGRAPHY & UTILS ----- */
+    .category-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      color: #b35e2e;
+      background: #f1e8e2;
+      padding: 0.15rem 0.8rem;
+      border-radius: 20px;
+      margin-bottom: 0.75rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 500;
+      border-bottom: 2px solid #e6ded7;
+      padding-bottom: 0.75rem;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title i {
+      color: #b35e2e;
+      font-size: 1.5rem;
+    }
+
+    /* ----- HEADER (identical to main) ----- */
+    .site-header {
+      background: #ffffff;
+      border-bottom: 1px solid #e6ded7;
+      padding: 1.25rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .logo a {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      color: #1e1e1e;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    .logo span {
+      color: #b35e2e;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .main-nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #3e3e3e;
+    }
+
+    .main-nav a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+    }
+
+    .main-nav a:hover,
+    .main-nav a.active {
+      border-bottom-color: #b35e2e;
+      color: #b35e2e;
+    }
+
+    .search-toggle {
+      background: none;
+      border: 1px solid #d9cec6;
+      border-radius: 30px;
+      padding: 0.4rem 1rem 0.4rem 1.2rem;
+      font-size: 0.85rem;
+      color: #5a4e46;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+
+    .search-toggle:hover {
+      border-color: #b35e2e;
+      color: #b35e2e;
+    }
+
+    /* ----- SEARCH BAR ----- */
+    .search-bar {
+      display: none;
+      background: #ffffff;
+      padding: 1rem 0 1.5rem;
+      border-bottom: 1px solid #e6ded7;
+    }
+
+    .search-bar.open {
+      display: block;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 0.9rem 1.5rem;
+      font-size: 1rem;
+      border: 1px solid #d9cec6;
+      border-radius: 40px;
+      font-family: 'Inter', sans-serif;
+      background: #fbf9f7;
+    }
+
+    .search-bar input:focus {
+      outline: 2px solid #b35e2e;
+      outline-offset: 2px;
+    }
+
+    /* ----- CONTACT PAGE LAYOUT ----- */
+    .contact-layout {
+      display: grid;
+      grid-template-columns: 1fr 1.2fr;
+      gap: 3rem;
+      padding: 3.5rem 0 4rem;
+    }
+
+    /* ----- CONTACT INFO SIDE ----- */
+    .contact-info {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+    }
+
+    .contact-info h1 {
+      font-size: 2.8rem;
+      line-height: 1.1;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-info h1 span {
+      color: #b35e2e;
+      font-style: italic;
+      font-weight: 400;
+    }
+
+    .contact-intro {
+      font-size: 1.1rem;
+      color: #3b3b3b;
+      margin-bottom: 0.5rem;
+      max-width: 90%;
+    }
+
+    .info-card {
+      background: #ffffff;
+      border: 1px solid #eee7e2;
+      border-radius: 16px;
+      padding: 1.75rem 1.75rem;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s;
+    }
+
+    .info-card:hover {
+      box-shadow: 0 8px 24px rgba(0,0,0,0.04);
+    }
+
+    .info-card i {
+      color: #b35e2e;
+      font-size: 1.3rem;
+      margin-right: 0.75rem;
+      width: 24px;
+      text-align: center;
+    }
+
+    .info-card h3 {
+      font-size: 1.2rem;
+      font-family: 'Inter', sans-serif;
+      font-weight: 600;
+      margin-bottom: 0.5rem;
+      display: flex;
+      align-items: center;
+    }
+
+    .info-card p, .info-card li {
+      color: #4f4f4f;
+      font-size: 0.95rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .info-card ul {
+      list-style: none;
+    }
+
+    .info-card a {
+      border-bottom: 1px solid transparent;
+    }
+
+    .info-card a:hover {
+      border-bottom-color: #b35e2e;
+    }
+
+    .response-time {
+      font-size: 0.8rem;
+      color: #7a6a5e;
+      margin-top: 0.75rem;
+      display: flex;
+      align-items: center;
+      gap: 0.4rem;
+    }
+
+    .response-time i {
+      font-size: 0.75rem;
+      color: #b35e2e;
+      margin-right: 0;
+    }
+
+    /* ----- CONTACT FORM ----- */
+    .contact-form-wrapper {
+      background: #ffffff;
+      border: 1px solid #eee7e2;
+      border-radius: 24px;
+      padding: 2.5rem 2.5rem 2.8rem;
+      box-shadow: 0 12px 30px -10px rgba(0,0,0,0.06);
+      height: fit-content;
+    }
+
+    .contact-form-wrapper h2 {
+      font-size: 1.8rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .contact-form-wrapper > p {
+      color: #5f5f5f;
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      max-width: 90%;
+    }
+
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group label {
+      display: block;
+      font-size: 0.85rem;
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      color: #2b2b2b;
+      letter-spacing: 0.01em;
+    }
+
+    .form-group label .required {
+      color: #b35e2e;
+      margin-left: 0.15rem;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 0.85rem 1.2rem;
+      font-size: 0.95rem;
+      font-family: 'Inter', sans-serif;
+      border: 1px solid #d9cec6;
+      border-radius: 12px;
+      background: #fbf9f7;
+      transition: border-color 0.2s, box-shadow 0.2s;
+      color: #1e1e1e;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      outline: none;
+      border-color: #b35e2e;
+      box-shadow: 0 0 0 3px rgba(179, 94, 46, 0.12);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 140px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+
+    .form-check {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.75rem;
+      margin-bottom: 1.8rem;
+    }
+
+    .form-check input {
+      width: auto;
+      margin-top: 0.3rem;
+      accent-color: #b35e2e;
+    }
+
+    .form-check label {
+      font-size: 0.85rem;
+      color: #4f4f4f;
+      font-weight: 400;
+      line-height: 1.5;
+    }
+
+    .btn-submit {
+      background: #1e1e1e;
+      color: #ffffff;
+      border: none;
+      border-radius: 40px;
+      padding: 1rem 2.8rem;
+      font-size: 0.95rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+      font-family: 'Inter', sans-serif;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+
+    .btn-submit:hover {
+      background: #b35e2e;
+      transform: translateY(-1px);
+    }
+
+    .btn-submit i {
+      font-size: 0.8rem;
+      transition: transform 0.2s;
+    }
+
+    .btn-submit:hover i {
+      transform: translateX(4px);
+    }
+
+    /* ----- FAQ SECTION (reused from main) ----- */
+    .faq-section {
+      background: #ffffff;
+      border-top: 1px solid #e6ded7;
+      border-bottom: 1px solid #e6ded7;
+      padding: 3.5rem 0;
+      margin: 2rem 0 0;
+    }
+
+    .faq-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2.5rem;
+    }
+
+    .faq-item {
+      border-bottom: 1px solid #eee7e2;
+      padding: 1.2rem 0;
+    }
+
+    .faq-item h3 {
+      font-size: 1.1rem;
+      cursor: pointer;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-weight: 500;
+    }
+
+    .faq-item h3 i {
+      color: #b35e2e;
+      transition: transform 0.2s;
+    }
+
+    .faq-item.active h3 i {
+      transform: rotate(180deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease;
+      color: #4f4f4f;
+      font-size: 0.95rem;
+      padding-right: 1rem;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+      padding-top: 0.8rem;
+    }
+
+    /* ----- INFO SECTIONS (same as main) ----- */
+    .info-sections {
+      background: #ffffff;
+      border-top: 1px solid #e6ded7;
+      padding: 3.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+    }
+
+    .info-grid h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+      font-weight: 600;
+    }
+
+    .info-grid p, .info-grid li {
+      color: #4f4f4f;
+      margin-bottom: 0.6rem;
+      line-height: 1.6;
+    }
+
+    .info-grid ul {
+      list-style: none;
+    }
+
+    .site-footer {
+      background: #1e1e1e;
+      color: #bdb3ab;
+      padding: 2.5rem 0;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .site-footer a {
+      color: #d9cec6;
+    }
+
+    .site-footer a:hover {
+      color: #ffffff;
+    }
+
+    /* ----- RESPONSIVE ----- */
+    @media (max-width: 1024px) {
+      .contact-layout {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .contact-info h1 {
+        font-size: 2.2rem;
+      }
+      .contact-intro {
+        max-width: 100%;
+      }
+      .faq-grid {
+        grid-template-columns: 1fr;
+      }
+      .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .contact-form-wrapper {
+        padding: 1.8rem 1.5rem;
+      }
+      .form-row {
+        grid-template-columns: 1fr;
+        gap: 0;
+      }
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+      .contact-info h1 {
+        font-size: 1.9rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 1rem;
+      }
+      .contact-layout {
+        padding: 2rem 0 3rem;
+      }
+      .btn-submit {
+        width: 100%;
+        justify-content: center;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">From Plan Homes<span>.</span></a>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+    <!-- Search bar (hidden by default) -->
+    <div class="search-bar" id="searchBar">
+      <div class="container">
+        <input type="search" id="searchInput" placeholder="Search articles, topics, or keywords…" aria-label="Search articles">
+      </div>
+    </div>
+  </header>
+
+  <!-- CONTACT CONTENT -->
+  <div class="container contact-layout">
+    <!-- LEFT: CONTACT INFO -->
+    <div class="contact-info">
+      <div>
+        <span class="category-tag">Get in touch</span>
+        <h1>Let's talk <span>design.</span></h1>
+        <p class="contact-intro">Whether you have a story tip, a pitch, an advertising inquiry, or just want to say hello — we read every message and reply within two business days.</p>
+      </div>
+
+      <!-- Editorial -->
+      <div class="info-card">
+        <h3><i class="fas fa-pen-fancy"></i> Editorial & Pitches</h3>
+        <p>For story ideas, contributor pitches, and editorial feedback:</p>
+        <p><a href="mailto:editors@nichejournal.com">editors@nichejournal.com</a></p>
+        <div class="response-time"><i class="far fa-clock"></i> Response within 48 hours</div>
+      </div>
+
+      <!-- Advertising -->
+      <div class="info-card">
+        <h3><i class="fas fa-chart-line"></i> Advertising & Partnerships</h3>
+        <p>For media kits, sponsored content, and brand collaborations:</p>
+        <p><a href="mailto:ads@nichejournal.com">ads@nichejournal.com</a></p>
+        <div class="response-time"><i class="far fa-clock"></i> Response within 24 hours</div>
+      </div>
+
+      <!-- General -->
+      <div class="info-card">
+        <h3><i class="fas fa-envelope"></i> General Inquiries</h3>
+        <p>Anything else on your mind? We're here.</p>
+        <p><a href="mailto:hello@nichejournal.com">hello@nichejournal.com</a></p>
+        <div class="response-time"><i class="far fa-clock"></i> Response within 2 business days</div>
+      </div>
+
+      <!-- Social / Studio -->
+      <div class="info-card">
+        <h3><i class="fas fa-map-pin"></i> Studio & Social</h3>
+        <p>NICHE Editorial Studio<br>Via dei Materiali 14, 20121 Milan, Italy</p>
+        <p style="margin-top: 0.6rem; display: flex; gap: 1rem;">
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram" style="font-size: 1.2rem; color: #b35e2e;"></i></a>
+          <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest" style="font-size: 1.2rem; color: #b35e2e;"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in" style="font-size: 1.2rem; color: #b35e2e;"></i></a>
+        </p>
+      </div>
+    </div>
+
+    <!-- RIGHT: CONTACT FORM -->
+    <div class="contact-form-wrapper">
+      <h2>Send us a message</h2>
+      <p>Fill in the form and we'll route your note to the right person. No bots, no auto-replies — just real humans who care about design.</p>
+
+      <form id="contactForm" onsubmit="event.preventDefault(); alert('Thank you! Your message has been sent (demo). We\\'ll be in touch soon.');">
+        <!-- Name row -->
+        <div class="form-row">
+          <div class="form-group">
+            <label for="firstName">First name <span class="required">*</span></label>
+            <input type="text" id="firstName" name="firstName" placeholder="Elena" required>
+          </div>
+          <div class="form-group">
+            <label for="lastName">Last name <span class="required">*</span></label>
+            <input type="text" id="lastName" name="lastName" placeholder="Marchetti" required>
+          </div>
+        </div>
+
+        <!-- Email -->
+        <div class="form-group">
+          <label for="email">Email address <span class="required">*</span></label>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
+        </div>
+
+        <!-- Subject -->
+        <div class="form-group">
+          <label for="subject">Subject <span class="required">*</span></label>
+          <select id="subject" name="subject" required>
+            <option value="" disabled selected>Select a topic…</option>
+            <option value="Editorial pitch">Editorial pitch / story idea</option>
+            <option value="Advertising">Advertising & partnerships</option>
+            <option value="General inquiry">General inquiry</option>
+            <option value="Contributor">Contributor guidelines</option>
+            <option value="Other">Other</option>
+          </select>
+        </div>
+
+        <!-- Message -->
+        <div class="form-group">
+          <label for="message">Message <span class="required">*</span></label>
+          <textarea id="message" name="message" placeholder="Tell us about your project, pitch, or question…" required></textarea>
+        </div>
+
+        <!-- Checkbox -->
+        <div class="form-check">
+          <input type="checkbox" id="consent" name="consent" required>
+          <label for="consent">I agree to the <a href="privacy.html" style="text-decoration: underline; text-decoration-color: #d9cec6;">privacy policy</a> and consent to being contacted regarding my inquiry. <span class="required">*</span></label>
+        </div>
+
+        <button type="submit" class="btn-submit">
+          Send message <i class="fas fa-arrow-right"></i>
+        </button>
+      </form>
+    </div>
+  </div>
+
+  <!-- FAQ SECTION (reused) -->
+  <section class="faq-section">
+    <div class="container">
+      <h2 class="section-title" style="justify-content: center; border-bottom: none; text-align: center; display: block;">Before you write — quick answers</h2>
+      <div class="faq-grid">
+        <div class="faq-item">
+          <h3>Do you accept guest posts or pitches? <i class="fas fa-chevron-down"></i></h3>
+          <div class="faq-answer">Yes, we welcome pitches from designers, architects, and writers. Please send a short outline (200 words) and a link to your portfolio or previous work to editors@nichejournal.com. We respond to every pitch within 48 hours.</div>
+        </div>
+        <div class="faq-item">
+          <h3>How can I advertise on NICHE? <i class="fas fa-chevron-down"></i></h3>
+          <div class="faq-answer">We offer sponsored articles, newsletter placements, and display advertising. Email ads@nichejournal.com for our current media kit and rates. We only work with brands that align with our editorial values.</div>
+        </div>
+        <div class="faq-item">
+          <h3>Can I republish your articles? <i class="fas fa-chevron-down"></i></h3>
+          <div class="faq-answer">We allow limited republishing with attribution and a link back to the original. Please contact us for permission before reposting full articles. Short excerpts with credit are always welcome.</div>
+        </div>
+        <div class="faq-item">
+          <h3>Do you review products or materials? <i class="fas fa-chevron-down"></i></h3>
+          <div class="faq-answer">We do not accept free products in exchange for coverage. If you have a material or product our readers should know about, send a press release and high-res images — we'll consider it for editorial coverage.</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- INFO SECTIONS (same as main) -->
+  <div class="info-sections">
+    <div class="container info-grid">
+      <div>
+        <h4>About NICHE</h4>
+        <p>An independent editorial publication exploring the intersection of interior design, architecture, and the way we live. We publish in-depth articles, practical guides, and critical perspectives — no fluff, no sponsored content.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:editors@nichejournal.com">editors@nichejournal.com</a><br>Advertising: <a href="mailto:ads@nichejournal.com">ads@nichejournal.com</a></p>
+        <p>We welcome pitches and story ideas. Please review our contributor guidelines before submitting.</p>
+      </div>
+      <div>
+        <h4>Privacy & Terms</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="#">Accessibility Statement</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="categories.html">Interior Design</a></li>
+          <li><a href="categories.html">Architecture</a></li>
+          <li><a href="categories.html">Materials</a></li>
+          <li><a href="categories.html">Lighting</a></li>
+          <li><a href="categories.html">Space Planning</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 NICHE Interior Design & Architecture Journal. All rights reserved. <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="cookies.html">Cookies</a></p>
+      <p style="margin-top: 0.5rem; font-size: 0.75rem;">Original editorial content. No AI-generated filler. Made for people who love thoughtful design.</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT -->
+  <script>
+    (function() {
+      // --- Search toggle ---
+      const searchToggle = document.getElementById('searchToggle');
+      const searchBar = document.getElementById('searchBar');
+      const searchInput = document.getElementById('searchInput');
+
+      searchToggle.addEventListener('click', function() {
+        searchBar.classList.toggle('open');
+        if (searchBar.classList.contains('open')) {
+          searchInput.focus();
+        }
+      });
+
+      // --- FAQ accordion ---
+      const faqItems = document.querySelectorAll('.faq-item');
+      faqItems.forEach(item => {
+        const question = item.querySelector('h3');
+        question.addEventListener('click', function() {
+          faqItems.forEach(other => {
+            if (other !== item) other.classList.remove('active');
+          });
+          item.classList.toggle('active');
+        });
+      });
+
+      // open first FAQ by default
+      if (faqItems.length > 0) faqItems[0].classList.add('active');
+
+      // --- Simple search filter (for demo, on this page it just scrolls or alerts) ---
+      // Since there are no article cards on this page, we'll keep the input functional but harmless.
+      // The search input is part of the header, but no articles to filter here.
+      // We'll just leave it as is.
+    })();
+  </script>
+</body>
+</html>

@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About — From Plan Homes</title>
+  <meta name="description" content="About From Plan Homes — independent editorial for interior design & architecture. Our mission, editorial values, and the team behind the journal.">
+  <link rel="canonical" href="https://www.nichejournal.com/about.html">
+  <!-- Open Graph -->
+  <meta property="og:title" content="About — From Plan Homes">
+  <meta property="og:description" content="Independent editorial for interior design & architecture. Our mission, editorial values, and the team behind the journal.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://www.nichejournal.com/about.html">
+  <meta property="og:image" content="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=630&fit=crop">
+  <meta name="twitter:card" content="summary_large_image">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,300;14..32,400;14..32,500;14..32,600;14..32,700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Schema.org -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "AboutPage",
+    "name": "About From Plan Homes",
+    "url": "https://www.nichejournal.com/about.html",
+    "description": "Independent editorial for interior design & architecture. Our mission, editorial values, and the team behind the journal.",
+    "mainEntity": {
+      "@type": "Organization",
+      "name": "From Plan Homes",
+      "url": "https://www.nichejournal.com/",
+      "description": "Independent editorial for interior design & architecture.",
+      "founder": {
+        "@type": "Person",
+        "name": "Elena Marchetti"
+      }
+    }
+  }
+  </script>
+  <style>
+    /* ----- RESET & BASE ----- */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: #fbf9f7;
+      color: #1e1e1e;
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    h1, h2, h3, h4 {
+      font-family: 'Playfair Display', serif;
+      font-weight: 500;
+      letter-spacing: -0.01em;
+      line-height: 1.2;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+      transition: color 0.2s, border-color 0.2s;
+    }
+
+    a:hover {
+      color: #b35e2e;
+    }
+
+    img {
+      max-width: 100%;
+      display: block;
+      height: auto;
+    }
+
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* ----- TYPOGRAPHY & UTILS ----- */
+    .category-tag {
+      display: inline-block;
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 600;
+      color: #b35e2e;
+      background: #f1e8e2;
+      padding: 0.15rem 0.8rem;
+      border-radius: 20px;
+      margin-bottom: 0.75rem;
+    }
+
+    .reading-time {
+      font-size: 0.75rem;
+      color: #7a6a5e;
+      display: flex;
+      align-items: center;
+      gap: 0.3rem;
+    }
+
+    .reading-time i {
+      font-size: 0.7rem;
+    }
+
+    .section-title {
+      font-size: 1.8rem;
+      font-weight: 500;
+      border-bottom: 2px solid #e6ded7;
+      padding-bottom: 0.75rem;
+      margin-bottom: 2rem;
+      letter-spacing: -0.02em;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-title i {
+      color: #b35e2e;
+      font-size: 1.5rem;
+    }
+
+    /* ----- HEADER ----- */
+    .site-header {
+      background: #ffffff;
+      border-bottom: 1px solid #e6ded7;
+      padding: 1.25rem 0;
+      position: sticky;
+      top: 0;
+      z-index: 50;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.02);
+    }
+
+    .header-inner {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+      gap: 1.5rem;
+    }
+
+    .logo a {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.9rem;
+      font-weight: 600;
+      color: #1e1e1e;
+      letter-spacing: -0.03em;
+      line-height: 1;
+    }
+
+    .logo span {
+      color: #b35e2e;
+      font-weight: 400;
+      font-style: italic;
+    }
+
+    .main-nav ul {
+      display: flex;
+      list-style: none;
+      gap: 2rem;
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: #3e3e3e;
+    }
+
+    .main-nav a {
+      padding-bottom: 0.25rem;
+      border-bottom: 2px solid transparent;
+    }
+
+    .main-nav a:hover,
+    .main-nav a.active {
+      border-bottom-color: #b35e2e;
+      color: #b35e2e;
+    }
+
+    .search-toggle {
+      background: none;
+      border: 1px solid #d9cec6;
+      border-radius: 30px;
+      padding: 0.4rem 1rem 0.4rem 1.2rem;
+      font-size: 0.85rem;
+      color: #5a4e46;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: all 0.2s;
+    }
+
+    .search-toggle:hover {
+      border-color: #b35e2e;
+      color: #b35e2e;
+    }
+
+    /* ----- SEARCH BAR (hidden by default) ----- */
+    .search-bar {
+      display: none;
+      background: #ffffff;
+      padding: 1rem 0 1.5rem;
+      border-bottom: 1px solid #e6ded7;
+    }
+
+    .search-bar.open {
+      display: block;
+    }
+
+    .search-bar input {
+      width: 100%;
+      padding: 0.9rem 1.5rem;
+      font-size: 1rem;
+      border: 1px solid #d9cec6;
+      border-radius: 40px;
+      font-family: 'Inter', sans-serif;
+      background: #fbf9f7;
+    }
+
+    .search-bar input:focus {
+      outline: 2px solid #b35e2e;
+      outline-offset: 2px;
+    }
+
+    /* ----- ABOUT PAGE HERO ----- */
+    .about-hero {
+      background: #f4efe9;
+      padding: 4rem 0 3.5rem;
+      border-bottom: 1px solid #e6ded7;
+      text-align: center;
+    }
+
+    .about-hero h1 {
+      font-size: 3.2rem;
+      margin-bottom: 1rem;
+      letter-spacing: -0.02em;
+    }
+
+    .about-hero p {
+      max-width: 680px;
+      margin: 0 auto;
+      font-size: 1.15rem;
+      color: #3b3b3b;
+    }
+
+    .about-hero .category-tag {
+      margin-bottom: 1.25rem;
+    }
+
+    /* ----- ABOUT CONTENT ----- */
+    .about-content {
+      padding: 3.5rem 0 4rem;
+    }
+
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3.5rem;
+      align-items: start;
+    }
+
+    .about-text h2 {
+      font-size: 2rem;
+      margin-bottom: 1.25rem;
+      letter-spacing: -0.02em;
+    }
+
+    .about-text p {
+      margin-bottom: 1.25rem;
+      color: #3b3b3b;
+      font-size: 1.02rem;
+    }
+
+    .about-text p:last-child {
+      margin-bottom: 0;
+    }
+
+    .about-image {
+      border-radius: 16px;
+      overflow: hidden;
+      box-shadow: 0 20px 40px -12px rgba(0,0,0,0.1);
+    }
+
+    .about-image img {
+      width: 100%;
+      height: 420px;
+      object-fit: cover;
+    }
+
+    .about-image figcaption {
+      font-size: 0.75rem;
+      color: #7a6a5e;
+      padding: 0.75rem 1rem;
+      background: #ffffff;
+      border-top: 1px solid #eee7e2;
+      font-style: italic;
+    }
+
+    /* ----- VALUES / MISSION ----- */
+    .values-section {
+      background: #ffffff;
+      border-top: 1px solid #e6ded7;
+      border-bottom: 1px solid #e6ded7;
+      padding: 3.5rem 0;
+    }
+
+    .values-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .value-card {
+      text-align: center;
+    }
+
+    .value-card i {
+      font-size: 2rem;
+      color: #b35e2e;
+      margin-bottom: 1rem;
+    }
+
+    .value-card h3 {
+      font-size: 1.3rem;
+      margin-bottom: 0.75rem;
+      font-weight: 500;
+    }
+
+    .value-card p {
+      font-size: 0.95rem;
+      color: #4f4f4f;
+      max-width: 300px;
+      margin: 0 auto;
+    }
+
+    /* ----- TEAM ----- */
+    .team-section {
+      padding: 3.5rem 0 4rem;
+    }
+
+    .team-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 2.5rem;
+    }
+
+    .team-member {
+      background: #ffffff;
+      border: 1px solid #eee7e2;
+      border-radius: 16px;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 14px rgba(0,0,0,0.02);
+      transition: box-shadow 0.2s, transform 0.2s;
+    }
+
+    .team-member:hover {
+      box-shadow: 0 16px 30px -8px rgba(0,0,0,0.08);
+      transform: translateY(-3px);
+    }
+
+    .team-member img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin: 0 auto 1.25rem;
+    }
+
+    .team-member h3 {
+      font-size: 1.2rem;
+      margin-bottom: 0.25rem;
+    }
+
+    .team-member .role {
+      font-size: 0.8rem;
+      color: #b35e2e;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      font-weight: 600;
+      margin-bottom: 0.75rem;
+    }
+
+    .team-member p {
+      font-size: 0.9rem;
+      color: #4f4f4f;
+    }
+
+    /* ----- NEWSLETTER (reused) ----- */
+    .newsletter {
+      background: #f4efe9;
+      border-radius: 24px;
+      padding: 3rem 2.5rem;
+      margin: 3rem 0 2rem;
+      text-align: center;
+    }
+
+    .newsletter h2 {
+      font-size: 2rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .newsletter p {
+      max-width: 550px;
+      margin: 0 auto 1.75rem;
+      color: #4f4f4f;
+    }
+
+    .newsletter form {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+    }
+
+    .newsletter input {
+      padding: 0.9rem 1.5rem;
+      border: 1px solid #d9cec6;
+      border-radius: 40px;
+      width: 320px;
+      font-family: 'Inter', sans-serif;
+      background: #ffffff;
+    }
+
+    .newsletter button {
+      background: #1e1e1e;
+      color: #ffffff;
+      border: none;
+      border-radius: 40px;
+      padding: 0.9rem 2rem;
+      font-weight: 500;
+      cursor: pointer;
+      transition: background 0.2s;
+      font-family: 'Inter', sans-serif;
+    }
+
+    .newsletter button:hover {
+      background: #b35e2e;
+    }
+
+    /* ----- INFO SECTIONS (footer) ----- */
+    .info-sections {
+      background: #ffffff;
+      border-top: 1px solid #e6ded7;
+      padding: 3.5rem 0;
+      font-size: 0.9rem;
+    }
+
+    .info-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 2.5rem;
+    }
+
+    .info-grid h4 {
+      font-size: 1.1rem;
+      margin-bottom: 1.2rem;
+      font-weight: 600;
+    }
+
+    .info-grid p, .info-grid li {
+      color: #4f4f4f;
+      margin-bottom: 0.6rem;
+      line-height: 1.6;
+    }
+
+    .info-grid ul {
+      list-style: none;
+    }
+
+    .site-footer {
+      background: #1e1e1e;
+      color: #bdb3ab;
+      padding: 2.5rem 0;
+      font-size: 0.85rem;
+      text-align: center;
+    }
+
+    .site-footer a {
+      color: #d9cec6;
+    }
+
+    .site-footer a:hover {
+      color: #ffffff;
+    }
+
+    /* ----- RESPONSIVE ----- */
+    @media (max-width: 1024px) {
+      .about-grid {
+        grid-template-columns: 1fr;
+        gap: 2.5rem;
+      }
+      .about-image img {
+        height: 340px;
+      }
+      .values-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr 1fr;
+      }
+      .info-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .header-inner {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+      .main-nav ul {
+        flex-wrap: wrap;
+        gap: 1rem;
+      }
+      .about-hero h1 {
+        font-size: 2.2rem;
+      }
+      .values-grid {
+        grid-template-columns: 1fr;
+      }
+      .team-grid {
+        grid-template-columns: 1fr;
+      }
+      .newsletter form {
+        flex-direction: column;
+        align-items: center;
+      }
+      .newsletter input {
+        width: 100%;
+      }
+      .info-grid {
+        grid-template-columns: 1fr;
+      }
+      .about-image img {
+        height: 240px;
+      }
+    }
+
+    @media (max-width: 480px) {
+      .container {
+        padding: 0 1rem;
+      }
+      .about-hero h1 {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">From Plan Homes
+        <span>.</span></a>
+      </div>
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="terms.html">Terms Of Privacy</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="cookies.html">Cookies Policy</a></li>
+          <li><a href="disclaimer.html">Disclaimer</a></li>
+          <li><a href="categories.html">Categories</a></li>
+        </ul>
+      </nav>
+      <button class="search-toggle" id="searchToggle" aria-label="Toggle search">
+        <i class="fas fa-search"></i> Search
+      </button>
+    </div>
+    <!-- Search bar (hidden by default) -->
+    <div class="search-bar" id="searchBar">
+      <div class="container">
+        <input type="search" id="searchInput" placeholder="Search articles, topics, or keywords…" aria-label="Search articles">
+      </div>
+    </div>
+  </header>
+
+  <!-- ABOUT HERO -->
+  <section class="about-hero">
+    <div class="container">
+      <span class="category-tag">About Us</span>
+      <h1>We believe good design<br>starts with a plan.</h1>
+      <p>From Plan Homes is an independent editorial journal exploring the intersection of interior design, architecture, and the way we live. We publish in-depth articles, practical guides, and critical perspectives — no fluff, no sponsored content.</p>
+    </div>
+  </section>
+
+  <!-- ABOUT CONTENT -->
+  <section class="about-content">
+    <div class="container about-grid">
+      <div class="about-text">
+        <h2>Our story</h2>
+        <p>From Plan Homes began as a simple question: why is so much design writing either shallow trend-spotting or impenetrable academic jargon? We wanted a publication that treated residential design with the seriousness it deserves — without losing the joy and practicality that makes it matter.</p>
+        <p>Founded in 2019 by architect and writer Elena Marchetti, we've grown into a trusted resource for designers, architects, and curious homeowners. Every article is researched, written, and edited by people who have actually specified materials, drawn lighting plans, and navigated the messy realities of construction.</p>
+        <p>We're proudly independent. We don't accept sponsored posts, we don't publish AI-generated filler, and we don't chase trends for the sake of clicks. Our only obligation is to our readers — and to the idea that thoughtful design can make ordinary life a little better.</p>
+      </div>
+      <figure class="about-image">
+        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&h=600&fit=crop" alt="Minimalist living room with concrete walls, oak flooring, and large windows — the From Plan Homes editorial style">
+        <figcaption>Honest materials, generous light, and spaces that breathe — the principles we return to again and again.</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <!-- VALUES / MISSION -->
+  <section class="values-section">
+    <div class="container">
+      <h2 class="section-title" style="justify-content: center; border-bottom: none; text-align: center; display: block;">What we stand for</h2>
+      <div class="values-grid">
+        <div class="value-card">
+          <i class="fas fa-pen-fancy"></i>
+          <h3>Editorial integrity</h3>
+          <p>No sponsored content, no pay-to-play. Our recommendations are based on research, experience, and a genuine belief in the value of good design.</p>
+        </div>
+        <div class="value-card">
+          <i class="fas fa-ruler-combined"></i>
+          <h3>Practical depth</h3>
+          <p>We go beyond pretty pictures. Our articles explain the how and why — so you can apply what you learn, whether you're a professional or a homeowner.</p>
+        </div>
+        <div class="value-card">
+          <i class="fas fa-leaf"></i>
+          <h3>Long-term thinking</h3>
+          <p>We champion materials and methods that age gracefully, perform well, and tread lightly. Sustainability isn't a trend for us — it's a baseline.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- TEAM SECTION -->
+  <section class="team-section">
+    <div class="container">
+      <h2 class="section-title"><i class="fas fa-users"></i> The team</h2>
+      <div class="team-grid">
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=200&h=200&fit=crop" alt="Portrait of Elena Marchetti, Founder and Editor-in-Chief">
+          <h3>Elena Marchetti</h3>
+          <div class="role">Founder & Editor-in-Chief</div>
+          <p>Architect and design writer with 15 years covering residential interiors and sustainable materials. Elena leads editorial strategy and writes our long-form essays.</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=200&h=200&fit=crop" alt="Portrait of James Whitfield, Senior Editor">
+          <h3>James Whitfield</h3>
+          <div class="role">Senior Editor</div>
+          <p>Former architectural designer turned editor. James oversees our technical articles, product guides, and the weekly newsletter.</p>
+        </div>
+        <div class="team-member">
+          <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=200&h=200&fit=crop" alt="Portrait of Maya Chen, Contributing Writer">
+          <h3>Maya Chen</h3>
+          <div class="role">Contributing Writer</div>
+          <p>Interior designer and stylist. Maya brings a practical, hands-on perspective to our space planning and lighting coverage.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- NEWSLETTER FULL -->
+  <div class="container">
+    <section class="newsletter">
+      <h2>Stay inspired with From Plan Homes</h2>
+      <p>Join 12,000+ designers, architects, and curious homeowners. One weekly email with our latest long-form articles and practical guides.</p>
+      <form onsubmit="event.preventDefault(); alert('Thank you for subscribing (demo)');">
+        <input type="email" placeholder="Email address" required>
+        <button type="submit">Subscribe</button>
+      </form>
+    </section>
+  </div>
+
+  <!-- INFO SECTIONS: About, Contact, Privacy, Terms, Cookies -->
+  <div class="info-sections">
+    <div class="container info-grid">
+      <div>
+        <h4>About From Plan Homes</h4>
+        <p>An independent editorial publication exploring the intersection of interior design, architecture, and the way we live. We publish in-depth articles, practical guides, and critical perspectives — no fluff, no sponsored content.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>Editorial: <a href="mailto:editors@fromplanhomes.com">editors@fromplanhomes.com</a><br>Advertising: <a href="mailto:ads@fromplanhomes.com">ads@fromplanhomes.com</a></p>
+        <p>We welcome pitches and story ideas. Please review our contributor guidelines before submitting.</p>
+      </div>
+      <div>
+        <h4>Privacy & Terms</h4>
+        <ul>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+          <li><a href="terms.html">Terms of Use</a></li>
+          <li><a href="cookies.html">Cookie Policy</a></li>
+          <li><a href="#">Accessibility Statement</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="index.html">Interior Design</a></li>
+          <li><a href="index.html">Architecture</a></li>
+          <li><a href="index.html">Materials</a></li>
+          <li><a href="index.html">Lighting</a></li>
+          <li><a href="index.html">Space Planning</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <p>© 2025 From Plan Homes Interior Design & Architecture Journal. All rights reserved. <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="cookies.html">Cookies</a></p>
+      <p style="margin-top: 0.5rem; font-size: 0.75rem;">Original editorial content. No AI-generated filler. Made for people who love thoughtful design.</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT: search toggle -->
+  <script>
+    (function() {
+      // --- Search toggle ---
+      const searchToggle = document.getElementById('searchToggle');
+      const searchBar = document.getElementById('searchBar');
+      const searchInput = document.getElementById('searchInput');
+
+      searchToggle.addEventListener('click', function() {
+        searchBar.classList.toggle('open');
+        if (searchBar.classList.contains('open')) {
+          searchInput.focus();
+        }
+      });
+    })();
+  </script>
+</body>
+</html>
